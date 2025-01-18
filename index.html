@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <audio src="Papas Super Ricas.mp3" autoplay></audio>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Carrito</title>
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preload" href="css/skeleton.css" as="style">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="preload" href="css/styles.css" as="style">
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+
+    <body>
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns">
+                        <img src="img/dis.png" alt="" id="titulo">
+                        <div class="greetings">
+                            <span>J</span>
+                            <span>&</span>
+                            <span>S</span>
+                    </div>
+                        
+                    </div>
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                <img src="img/cart.png" id="img-carrito" alt="carrito">
+                                <div id="carrito">
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+      
+
+        
+
+        <div id="lista-cursos" class="container">
+            <h1 id="encabezado" class="encabezado"></h1>
+           
+            <div class="row">
+                <div class="four columns">
+                    <div class="card" style="height: 100%;">
+                        <img src="img/Todorico.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Todo Rico bbq</h4>
+                            <p>Todorico Bbq 45Gr X8 <br>
+                            Todo Ricos es una Mezcla de papas, chicharrones y platanos con sabor a BBQ.</p>
+                            <p class="precio">Precio al consumidor $2800 <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/original.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Todo Rico Original</h4>
+                            <p>Todorico Original 45Gr X8 <br>
+                                Todo Ricos es una Mezcla de papas, chicharrones y platanos con sabor a Natural.</p>
+                          
+                            <p class="precio">Precio al consumidor $2800  <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/todocriollo.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Todo rico Criollo</h4>
+                            <p>Todorico Criollo 45Gr X8 <br>
+                                Pasabocas con una mezcla de papa criolla, yuca, platano maduro y chicharron sabor original</p>
+                            <p class="precio">Precio al consumidor $2800 <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+
+            </div> <!--.row-->
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/picada.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Todo rico Picada</h4>
+                            <p>Todorico Picada 45Gr X8 <br>
+                                Todo Ricos es una Mezcla de papas, chicharrones y platanos con sabor a Picada.</p>
+                            <p class="precio">Precio al consumidor $2800 <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/papapollo.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Papa De Pollo</h4>
+                            <p>Papa de pollo 45Gr X12 <br>
+                            Papas fritas con el auténtico sabor a pollo.</p>
+                            <p class="precio">Precio al consumidor $2800 <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/papapicante.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Papa Picante</h4>
+                            <p>Papa Picantes 45Gr X12 <br>
+                                Papas fritas sabor a picante idéntico al natural.</p>
+                            <p class="precio">Precio al consumidor $2800 <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/papaoriginal.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Papa Original</h4>
+                            <p>Papa Originales 45Gr X12 <br>Las papas fritas perfectas; con su forma única y sabor incomparable. </p>
+                            <p class="precio">Precio al consumidor $2800 <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/trocitos.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Trocitos</h4>
+                            <p>Trocitos 45Gr X12 <br> Pasabocas de harina sabor pollo idéntico al natural sal y especias. </p>
+                            <p class="precio">Precio al consumidor $2800 <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/italo.jpeg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Galletas Italo</h4>
+                            <p> Estas deliciosas galletas que le hacen mas amenas sus onces a la hora del recreo.</p>
+                            <p class="precio">Precio al consumidor $2800 <span class="u-pull-right ">$15</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns">
+                        <nav id="principal" class="menu">
+                            <a class="enlace" href="#">Soporte</a>
+                           
+                        </nav>
+                    </div>
+                    <div class="four columns">
+                        <nav id="secundaria" class="menu">
+                            <a class="enlace" href="#">¿Quienes Somos?</a>
+                        </nav>
+                    </div>
+                        <img src="img/whap.jpg" alt="whapp" id="whap">
+        </footer>
+
+        <script src="js/app.js"></script>
+
+    </body>
+
+</html>
